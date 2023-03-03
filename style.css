@@ -18,6 +18,25 @@ nav {
     font-size: 24px;
 }
 
+h1 {
+    font-family: 'Tilt Warp';
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 21px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
 a:link {
     color: white;
 }
@@ -36,30 +55,36 @@ a:active{
 
 #about {
     display: inline-block;
-    margin-top: 120px;
+    padding-top: 95px;
     background-color: white;
-    position: relative;
+    float: left;
+    /* position: relative; */
     height:auto;
 }
 
-#about h2 {
+#about h1 {
     display:block;
+    padding-top: 70px;
     padding-left: 100px;
-    float: left;
-}
+    padding-bottom: 0px;
+    /* float: left; */
+}   
 #about p {
     display: block;
-    float: left;
+    /* float: left; */
     width: 40%;
-    padding-top: 50px;
+    padding-top: 8px;
     padding-left: 100px;
 }
 
 #shane {
-    display: block;
+    display: inline-block;
+    padding-top: 16px;
+    margin-top: 0px;
+    border-top: 0px;
     float: right;
     position: relative;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 #work h2 {
