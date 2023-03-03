@@ -20,7 +20,7 @@ nav {
 
 h1 {
     font-family: 'Tilt Warp';
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -28,7 +28,22 @@ h1 {
     margin-bottom: 4px;
 }
 
+h2 {
+    font-family: 'Tilt Warp';
+    font-size: 48px;
+    /* padding-top: 32px; */
+}
+
 p {
+    font-family: 'Inter';
+    font-size: 21px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+ul {
     font-family: 'Inter';
     font-size: 21px;
     padding-bottom: 2px;
@@ -87,8 +102,16 @@ a:active{
     padding-right: 150px;
 }
 
+#work {
+    display: inline-block;
+    width: 100%;
+}
 #work h2 {
     color: white;
+    /* padding-top: px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #coming_soon {
