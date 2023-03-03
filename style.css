@@ -5,3 +5,27 @@ body {
 header {
     background-color: black;
 }
+
+#about {
+    background-color: white;
+}
+
+#work h2 {
+    color: white;
+}
+
+#experience {
+    background-color: white;
+}
+
+#education h2 {
+    color: white;
+}
+
+#education ul {
+    color: white;
+}
+
+footer {
+    background-color: white;
+}
