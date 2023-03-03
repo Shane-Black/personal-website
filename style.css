@@ -69,7 +69,7 @@ a:active{
 }
 
 #about {
-    display: inline-block;
+    display: block;
     padding-top: 95px;
     background-color: white;
     float: left;
@@ -93,7 +93,7 @@ a:active{
 }
 
 #shane {
-    display: inline-block;
+    display: block;
     padding-top: 16px;
     margin-top: 0px;
     border-top: 0px;
@@ -123,17 +123,80 @@ a:active{
 }
 
 #experience {
+    display: inline-block;
+    width: 100%;
     background-color: white;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#experience ul {
+    max-width: 50%;
+}
+
+#education {
+    display: inline-block;
+    width: 100%;
+    padding-left: 55%;
+    padding-bottom: 50px;
 }
 
 #education h2 {
     color: white;
+    
 }
 
 #education ul {
     color: white;
+    /* padding-left: 60%; */
 }
 
 footer {
     background-color: white;
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#built_by {
+    /* display: block; */
+    /* float: left; */
+    /* width: 40%; */
+    flex: 0.5;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#form {
+    /* display: block; */
+    /* float: left; */
+    /* width: 40%; */
+    padding-top: 24px;
+    /* padding-left: 5%; */
+    flex: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linkedin {
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+label {
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Inter';
+}
+
+input {
+    size: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
