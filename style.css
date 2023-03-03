@@ -6,12 +6,66 @@ header {
     background-color: black;
 }
 
+nav {
+    display: inline-block;
+    float: right;
+    padding-top: 55px;
+    font-size: 32px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active{
+    color: black;
+}
+
 #about {
+    display: inline-block;
     background-color: white;
+    position: relative;
+    height:auto;
+}
+
+#about h2 {
+    display:block;
+    padding-left: 100px;
+    float: left;
+}
+#about p {
+    display: block;
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#shane {
+    display: block;
+    float: right;
+    position: relative;
+    padding-right: 100px;
 }
 
 #work h2 {
     color: white;
+}
+
+#coming_soon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #experience {
